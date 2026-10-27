@@ -1,0 +1,17 @@
+{
+  "bytes": 691590077,
+  "sha256": "45d49be74689f4fc912e89b0494fb1eeb3adb5c876b99f5a41ae645217f75653",
+  "records": 1099438,
+  "columns": 49,
+  "width_errors": [],
+  "duplicate_crash_ids": 0,
+  "negative_speed_limits": 0,
+  "nonpositive_units": 0,
+  "negative_injuries": 0,
+  "period_records": 1006003,
+  "outside_period": 93435,
+  "missing_or_nonfinite_model_features_excluded": 0,
+  "modeled_records": 1006003,
+  "missing_injury_outcomes": 2189,
+  "zero_coordinates": 74
+}

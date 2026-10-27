@@ -1,0 +1,14 @@
+{
+  "source_notebook_sha256": "6d7f6efca710fd9c98f6fe4214342b1c0ca0ed2f702b1c3363bc23eb138ba23e",
+  "source_cells": 67,
+  "revision": "Derived from the user-supplied notebook, with user-authorized methodological corrections and fresh execution. Original file remains unchanged.",
+  "changes": [
+    "English presentation and consolidated linear workflow",
+    "Retain crash ID and source row through labeling",
+    "Split before fitting median/IQR scaling",
+    "Prespecified gamma=2 reference, training-only K comparison",
+    "Initialization, training-subset, gamma and clipping sensitivity",
+    "Dynamic results replace hardcoded population counts and prior outputs",
+    "Increase to ten initializations after exploratory two-start run showed instability; rerun entire workflow in a fresh kernel"
+  ]
+}

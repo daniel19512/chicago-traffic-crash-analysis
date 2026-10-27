@@ -1,0 +1,39 @@
+{
+  "validated_at_utc": "2026-10-27T00:12:46.602884+00:00",
+  "real_execution": {
+    "completed_code_cells": 9,
+    "sequential_execution_counts": true,
+    "error_outputs": 0,
+    "csv_sha256": "45d49be74689f4fc912e89b0494fb1eeb3adb5c876b99f5a41ae645217f75653",
+    "environment": "new isolated venv; fresh Jupyter kernel",
+    "package_dependency_check": "pip check: No broken requirements found",
+    "runner_shutdown_note": "All code cells and the final success assertion completed. The external launcher returned shell code 1 after a parent-exit kernel shutdown warning; saved sequential execution counts and outputs were independently verified. No notebook error outputs occurred."
+  },
+  "static_checks": {
+    "json_and_nbformat_schema": "passed",
+    "all_code_syntax": "passed",
+    "local_readme_links": [
+      "notebooks/chicago_traffic_analysis.ipynb",
+      "reports/execution_summary.json",
+      "reports/integrity.json",
+      "reports/provenance.json",
+      "assets/annual_crashes.png",
+      "reports/configurations.csv",
+      "reports/sensitivity.csv",
+      "reports/train_evaluation.csv",
+      "reports/population_profiles.csv",
+      "reports/categorical_profiles.csv",
+      "assets/injury_profiles.png",
+      "reports/stability.csv",
+      "assets/stability.png",
+      "reports/validation.json"
+    ],
+    "external_readme_links_http_status": {
+      "https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/about_data": 200
+    },
+    "inline_png_assets_extracted": 3,
+    "private_path_and_token_pattern_scan": "passed",
+    "no_license_added": true
+  },
+  "scope": "One complete real execution with supplied snapshot; no claim of testing other data versions, Colab runtime, or external predictive validity."
+}

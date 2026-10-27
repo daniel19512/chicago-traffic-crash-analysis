@@ -1,0 +1,115 @@
+{
+  "audit": {
+    "bytes": 691590077,
+    "sha256": "45d49be74689f4fc912e89b0494fb1eeb3adb5c876b99f5a41ae645217f75653",
+    "records": 1099438,
+    "columns": 49,
+    "width_errors": [],
+    "duplicate_crash_ids": 0,
+    "negative_speed_limits": 0,
+    "nonpositive_units": 0,
+    "negative_injuries": 0,
+    "period_records": 1006003,
+    "outside_period": 93435,
+    "missing_or_nonfinite_model_features_excluded": 0,
+    "modeled_records": 1006003,
+    "missing_injury_outcomes": 2189,
+    "zero_coordinates": 74
+  },
+  "K": 2,
+  "gamma": 2.0,
+  "scale": {
+    "POSTED_SPEED_LIMIT": {
+      "median": 30.0,
+      "scale": 6.078525335520454
+    },
+    "NUM_UNITS": {
+      "median": 2.0,
+      "scale": 0.4632182544552811
+    }
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "polars": "2.1.0",
+    "matplotlib": "3.11.2",
+    "kmodes": "0.12.2",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0"
+  },
+  "python": "3.12.14",
+  "population": [
+    {
+      "cluster": 0,
+      "crashes": 329743,
+      "known_injury_outcomes": 328337,
+      "injury_crashes": 45257,
+      "POSTED_SPEED_LIMIT_mean": 25.515137546513497,
+      "NUM_UNITS_mean": 2.037586847939153,
+      "share_percent": 32.77753644869846,
+      "injury_percent": 13.783703938331653,
+      "sample": "population"
+    },
+    {
+      "cluster": 1,
+      "crashes": 676260,
+      "known_injury_outcomes": 675477,
+      "injury_crashes": 99598,
+      "POSTED_SPEED_LIMIT_mean": 29.84833939609026,
+      "NUM_UNITS_mean": 2.0342131724484664,
+      "share_percent": 67.22246355130153,
+      "injury_percent": 14.744839572627935,
+      "sample": "population"
+    }
+  ],
+  "stability": [
+    {
+      "experiment": "initialization",
+      "seed": 7,
+      "ARI": 0.020139228637360392
+    },
+    {
+      "experiment": "initialization",
+      "seed": 19,
+      "ARI": 0.031829990926478896
+    },
+    {
+      "experiment": "initialization",
+      "seed": 73,
+      "ARI": 0.9958992226273193
+    },
+    {
+      "experiment": "initialization",
+      "seed": 101,
+      "ARI": 0.030996781515729006
+    },
+    {
+      "experiment": "initialization",
+      "seed": 2026,
+      "ARI": 0.030996781515729006
+    },
+    {
+      "experiment": "80% training subset",
+      "seed": 7,
+      "ARI": 0.030996781515729006
+    },
+    {
+      "experiment": "80% training subset",
+      "seed": 19,
+      "ARI": 0.030996781515729006
+    },
+    {
+      "experiment": "80% training subset",
+      "seed": 73,
+      "ARI": 0.030996781515729006
+    }
+  ],
+  "distance_summary": {
+    "training": 7.258234577969468,
+    "evaluation": 7.213184576185822
+  },
+  "all_alignment_checks_passed": true
+}
